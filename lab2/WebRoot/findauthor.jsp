@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  <h4  >---1120310729 HIT-CS---</h4> <br>
+  <h1  >---1120310729 HIT-CS---</h1> <br>
 	<h2 align = "CENTER" >---Welcome---</h2> <br>
 	<h3 >Please Input Author:</h3> <br>
   <s:form action = "QUERY" >
