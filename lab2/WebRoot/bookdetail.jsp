@@ -25,7 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
-	<h1  >---1120310729 HIT-CS---</h1> <br>
+	<h2  >---1120310729 HIT-CS---</h2> <br>
 	<h2 align = "CENTER" >---The Author and Book Detail Information---</h2> <br>
     <td> 
     	<s:form action = "QUERY">
