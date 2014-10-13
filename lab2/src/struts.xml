@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name = "MyBookMVC" extends = "struts-default" >
+		<action name = "QUERY" class = "Actions" method = "findAuthorInfo">
+			<result name = "booklist"> /authorbooklist.jsp </result>
+		</action>
+		<action name = "QUERY_DETAIL" class = "Actions" method = "findBookInfo">
+			<result name = "bookinfo"> /bookdetail.jsp </result>
+		</action>
+		<action name = "DELETE" class = "Actions" method = "deleteABook">
+			<result name = "SearchAuthor"> /findauthor.jsp </result>
+		</action>
+		<action name = "BACK" class = "Actions" method = "returnTo">
+			<result name = "SearchAuthor"> /findauthor.jsp </result>
+		</action>
+	</package>
+</struts>    
